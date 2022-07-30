@@ -1,0 +1,59 @@
+[
+  {
+    "id": "portfolio",
+    "name": "Portfolio",
+    "description": "Portfolio website built using React. The main goal was to create a single-page portfolio site that showcases my front-end design skills",
+    "languages": [
+      "HTML", "CSS", "JS", "React", "Git"
+    ],
+    "tooltip": "JS with React. No CSS library used",
+    "links": {
+      "github": "https://github.com/lc796",
+      "live": "https://github.com/lc796",
+      "writeup": true
+    }
+  },
+  {
+    "id": "disaster-display",
+    "name": "DisasterDisplay",
+    "description": "Project for my final year dissertation at University of Exeter; a webapp to dynamically display disasters, including Google Maps integration and Charts.JS",
+    "languages": [
+      "HTML", "CSS", "JS", "React", "Java", "MySQL", "Git"
+    ],
+    "tooltip": "React (JS) involving ReactGoogleMaps, Chart.JS, and FontAwesome. Java involving Spring Boot and Git involving husky pre-commit hooks",
+    "links": {
+      "github": "https://github.com/lc796",
+      "live": "",
+      "writeup": true
+    },
+    "writeup": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nibh risus, cursus vel justo sit amet, aliquet blandit ligula. Nunc gravida libero urna, nec convallis nisi molestie vitae. Pellentesque commodo malesuada mattis. Praesent nulla dui, euismod nec ex a, finibus ullamcorper nisi. Proin in orci ipsum. Aenean condimentum dui sem, non dignissim nisl venenatis eu. Suspendisse sit amet nunc in orci ultrices commodo non nec purus. Vestibulum fermentum turpis urna, quis porta augue venenatis et. Vivamus auctor in mauris ut pretium. Proin interdum ultricies lectus.\n\nUt vestibulum turpis nec nunc sollicitudin euismod. Morbi laoreet mattis lorem, et scelerisque massa commodo a. Quisque rutrum sed orci sed euismod. Donec commodo nec purus sed mollis. Aliquam at euismod augue. Proin eget suscipit dolor. Nulla ut enim et quam finibus iaculis volutpat pharetra tortor. Nulla mauris felis, pharetra non commodo malesuada, dictum sed nibh. Nam faucibus enim vitae libero faucibus, sed cursus tellus porta.\n\n"
+  },
+  {
+    "id": "feudalia",
+    "name": "Feudalia",
+    "description": "Suite of plugins built using the Spigot/Bukkit API in Java that heavily change the core multiplayer gameplay loop. Provides Character cards and Chat functionality",
+    "languages": [
+      "Java", "MySQL", "Git"
+    ],
+    "tooltip": "Java involving Bukkit/Spigot API, Discord API, and various Minecraft plugin APIs. Project building using Maven",
+    "links": {
+      "github": "https://github.com/Feudalia",
+      "live": "",
+      "writeup": false
+    }
+  },
+  {
+    "id": "covid-alarm",
+    "name": "COVID Alarm",
+    "description": "This project was written in Python/Flask. It allows the user to schedule alarms for updates on news and weather, as well as sending the user automatic notifications",
+    "languages": [
+      "HTML", "CSS", "Python"
+    ],
+    "tooltip": "Python using Flask, uk-covid-19, and various other libraries. Consuming RESTful API of OpenWeatherMap and NewsAPI",
+    "links": {
+      "live": "",
+      "github": "https://github.com/lc796/covid-alarm-clock",
+      "writeup": false
+    }
+  }
+]
