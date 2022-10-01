@@ -250,11 +250,14 @@ nav button:hover {
 }
 
 /* Splash */
-.splash {
+.splash-container {
     height: calc(100vh - 80px);
     border-bottom: 1px solid var(--neutral-grey-90);
     background-color: var(--neutral-grey-20);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .splash h1 {
@@ -301,7 +304,7 @@ nav button:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .splash {
+    .splash-container {
         background-size: contain;
         background-image: url('../images/splash-final-mustard.png');
         background-repeat: no-repeat;
@@ -629,22 +632,21 @@ nav button:hover {
     color: var(--neutral-grey-20);
 }
 
-.Footer .wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    padding: 2rem 0 2rem;
+.Footer .footer-container {
+    display: block;
+    padding: 2rem 0 0 8rem;
     color: var(--neutral-grey-20);
     font-size: 2.5rem;
-    max-width: 48rem;
 }
 
 .footer-social-icon {
     color: var(--neutral-grey-20);
 }
 
-.footer-social-icon:hover {
+a .footer-social-icon:hover {
     color: var(--secondary-60);
+}
+
+#footer-wrapper a {
+    padding-right: 1rem;
 }
