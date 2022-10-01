@@ -56,7 +56,7 @@ const ProjectBox = (props) => {
             //case "Flask":
                 //return <li key={language}><img alt="Flask logo" src={flask}/></li>
             default:
-                return //<li key={language}></li>
+                return <li key={language}></li>
         }
     });
 
