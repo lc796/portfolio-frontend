@@ -7,7 +7,7 @@ const About = () => {
                 <div className="about-container">
                     <div className="about-item">
                         <h2>What I can do</h2>
-                        <p>I can design beautiful front-end websites. I also have experience with back-end development working with a variety of languages, including SQL, Java, Python, and PHP. Technologies I have used include: Linux, Git, NPM, Apache, MySQL, PostgreSQL, Django, Flask, Spring Boot, Bukkit/Spigot API, Xenforo, and MyBB. If you have something else that I might be able to help with, why not get in contact? <b>All quotes free of charge.</b></p>
+                        <p>I can design beautiful front-end websites using HTML/CSS/JS/React, alongside various other frameworks and libraries. I also have experience with back-end development working with a variety of languages, including SQL, Java, Python, and PHP. Technologies I have used include: Linux, Git, NodeJS, Apache, MySQL, PostgreSQL, Django, Flask, Spring Boot, Bukkit/Spigot API, Xenforo, and MyBB. If you have something else that I might be able to help with, why not get in contact? <b>All quotes free of charge.</b></p>
                     </div>
                     <div className="about-item">
                         <h2>My experience</h2>
