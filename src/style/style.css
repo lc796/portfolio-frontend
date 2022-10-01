@@ -348,7 +348,7 @@ nav button:hover {
 
     .splash h1 {
         font-size: 5rem;
-        padding: 0 0 0 5rem;
+        padding: 0 0 0 6rem;
     }
 
     .splash p {
@@ -410,6 +410,12 @@ nav button:hover {
 
 .about-item p {
     text-align: justify;
+}
+
+@media only screen and (max-width: 450px) {
+    .about-item p {
+        text-align: left;
+    }
 }
 
 @media only screen and (min-width: 1350px) {
