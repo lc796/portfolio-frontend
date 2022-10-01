@@ -152,7 +152,7 @@ hr {
 }
 
 .nav-logo {
-    width: 4rem;
+    width: 2.6rem;
     height: auto;
     color: var(--primary-70);
 }
@@ -168,6 +168,7 @@ hr {
 }
 
 .git-link {
+    font-size: 1rem;
     border: 0;
 }
 
