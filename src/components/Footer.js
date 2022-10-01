@@ -6,10 +6,10 @@ const Footer = () => {
     return (
         <div className="Footer">
             <div className="wrapper">
-                <a href="#"><FontAwesomeIcon className="footer-social-icon" icon={faGithub}/></a>
-                <a href="#"><FontAwesomeIcon className="footer-social-icon" icon={faLinkedin}/></a>
-                <a href="#"><FontAwesomeIcon className="footer-social-icon" icon={faEnvelope}/></a>
-                <a href="#"><FontAwesomeIcon className="footer-social-icon" icon={faPhoneSquare}/></a>
+                <a href="https://github.com/lc796"><FontAwesomeIcon className="footer-social-icon" icon={faGithub}/></a>
+                <a href="linkedin.com/in/luke-collishaw-2240a4159"><FontAwesomeIcon className="footer-social-icon" icon={faLinkedin}/></a>
+                <a href="mailto:lukecollishaw@gmail.com"><FontAwesomeIcon className="footer-social-icon" icon={faEnvelope}/></a> lukecollishaw@gmail.com
+                <FontAwesomeIcon className="footer-social-icon" icon={faPhoneSquare}/> 07539696081
             </div>
         </div>
     );
