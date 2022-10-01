@@ -314,7 +314,7 @@ nav button:hover {
 
     .splash h1 {
         font-size: 5rem;
-        padding: 5rem 0 0 6rem;
+        padding: 0 0 0 5rem;
     }
 
     .splash p {
@@ -333,7 +333,7 @@ nav button:hover {
 @media only screen and (min-width: 1450px) {
     .splash h1 {
         font-size: 5rem;
-        padding: 5rem 0 0 13rem;
+        padding: 0 0 0 13rem;
     }
 
     .splash p {
