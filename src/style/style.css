@@ -294,6 +294,9 @@ nav button:hover {
     .splash .cta {
         width: 405px;
     }
+    .splash h1 {
+        text-indent: -7px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
