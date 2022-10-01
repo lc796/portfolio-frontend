@@ -2,17 +2,14 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import {useState} from "react";
+import Hamburger from "./Hamburger";
 
 const Navbar = () => {
     const [isHamburgerToggled, setIsHamburgerToggled] = useState(false);
 
 
     const handleHamburgerMenu = () => {
-        if (isHamburgerToggled) {
-            setIsHamburgerToggled(false)
-            return;
-        }
-        setIsHamburgerToggled(true);
+        setIsHamburgerToggled(!isHamburgerToggled);
     }
 
     return (
@@ -32,7 +29,7 @@ const Navbar = () => {
                 </div>
                 {/*<button>Login</button>*/}
             </nav>
-            {isHamburgerToggled && <div className="hamburger-container">I love hamburger</div>}
+            {isHamburgerToggled && <Hamburger />}
         </div>
     );
 }
