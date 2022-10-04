@@ -1,6 +1,6 @@
 import {Fragment, useState} from "react";
 import {faGithub, faJava, faJs, faReact, faPhp, faPython, faCss3, faHtml5, faGit} from '@fortawesome/free-brands-svg-icons'
-import {faGlobe, faScroll} from "@fortawesome/free-solid-svg-icons";
+import {faGlobe} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import TechLanguageTooltip from "./TechLanguageTooltip";
 
