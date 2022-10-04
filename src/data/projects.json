@@ -8,14 +8,14 @@
     ],
     "tooltip": "JS with React. No CSS library used",
     "links": {
-      "github": "https://github.com/lc796",
-      "live": "https://github.com/lc796",
-      "writeup": true
-    }
+      "github": "https://github.com/lc796/portfolio-frontend",
+      "live": "https://lukecs.dev"
+    },
+    "tag": "Web App"
   },
   {
     "id": "disaster-display",
-    "name": "DisasterDisplay",
+    "name": "Disaster Display",
     "description": "Project for my final year dissertation at University of Exeter; a webapp to dynamically display disasters, including Google Maps integration and Charts.JS",
     "languages": [
       "HTML", "CSS", "JS", "React", "Java", "MySQL", "Git"
@@ -23,24 +23,9 @@
     "tooltip": "React (JS) involving ReactGoogleMaps, Chart.JS, and FontAwesome. Java involving Spring Boot and Git involving husky pre-commit hooks",
     "links": {
       "github": "https://github.com/lc796",
-      "live": "",
-      "writeup": true
+      "live": ""
     },
-    "writeup": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nibh risus, cursus vel justo sit amet, aliquet blandit ligula. Nunc gravida libero urna, nec convallis nisi molestie vitae. Pellentesque commodo malesuada mattis. Praesent nulla dui, euismod nec ex a, finibus ullamcorper nisi. Proin in orci ipsum. Aenean condimentum dui sem, non dignissim nisl venenatis eu. Suspendisse sit amet nunc in orci ultrices commodo non nec purus. Vestibulum fermentum turpis urna, quis porta augue venenatis et. Vivamus auctor in mauris ut pretium. Proin interdum ultricies lectus.\n\nUt vestibulum turpis nec nunc sollicitudin euismod. Morbi laoreet mattis lorem, et scelerisque massa commodo a. Quisque rutrum sed orci sed euismod. Donec commodo nec purus sed mollis. Aliquam at euismod augue. Proin eget suscipit dolor. Nulla ut enim et quam finibus iaculis volutpat pharetra tortor. Nulla mauris felis, pharetra non commodo malesuada, dictum sed nibh. Nam faucibus enim vitae libero faucibus, sed cursus tellus porta.\n\n"
-  },
-  {
-    "id": "feudalia",
-    "name": "Feudalia",
-    "description": "Suite of plugins built using the Spigot/Bukkit API in Java that heavily change the core multiplayer gameplay loop. Provides Character cards and Chat functionality",
-    "languages": [
-      "Java", "MySQL", "Git"
-    ],
-    "tooltip": "Java involving Bukkit/Spigot API, Discord API, and various Minecraft plugin APIs. Project building using Maven",
-    "links": {
-      "github": "https://github.com/Feudalia",
-      "live": "",
-      "writeup": false
-    }
+    "tag": "Web App"
   },
   {
     "id": "covid-alarm",
@@ -52,8 +37,22 @@
     "tooltip": "Python using Flask, uk-covid-19, and various other libraries. Consuming RESTful API of OpenWeatherMap and NewsAPI",
     "links": {
       "live": "",
-      "github": "https://github.com/lc796/covid-alarm-clock",
-      "writeup": false
-    }
+      "github": "https://github.com/lc796/covid-alarm-clock"
+    },
+    "tag": "Web App"
+  },
+  {
+    "id": "feudalia",
+    "name": "Feudalia Plugin Suite",
+    "description": "Suite of plugins built using the Spigot/Bukkit API in Java that heavily change the core multiplayer gameplay loop. Provides Character cards and Chat functionality",
+    "languages": [
+      "Java", "MySQL", "Git"
+    ],
+    "tooltip": "Java involving Bukkit/Spigot API, Discord API, and various Minecraft plugin APIs. Project building using Maven",
+    "links": {
+      "github": "https://github.com/Feudalia",
+      "live": ""
+    },
+    "tag": "Game Addons"
   }
 ]
