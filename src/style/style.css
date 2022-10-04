@@ -561,7 +561,8 @@ nav button:hover {
 
 /* Projects - tech language tooltips */
 .TechLanguageTooltip {
-    position: relative;
+    position: absolute;
+    width: 285px;
     padding: 0 0.3rem 0;
     border: 1px solid var(--neutral-grey-100);
     background-color: var(--neutral-grey-90);
