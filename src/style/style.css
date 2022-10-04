@@ -494,6 +494,7 @@ nav button:hover {
 }
 
 .project-body {
+    position: relative;
     min-height: 280px;
     padding: 0 1rem 1.6rem;
 }
@@ -573,6 +574,19 @@ nav button:hover {
 
 .TechLanguageTooltip p {
     font-size: 1rem;
+}
+
+.tag {
+    position: absolute;
+    bottom: 0.5em;
+    width: auto;
+    padding: 0 0.6em 0 0.6em;
+    border-color: var(--primary-10);
+    border-radius: 1em;
+    background-color: var(--primary-10);
+    color: var(--neutral-grey-90);
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 
