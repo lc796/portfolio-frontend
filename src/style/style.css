@@ -568,6 +568,7 @@ nav button:hover {
     background-color: var(--neutral-grey-90);
     color: var(--neutral-grey-20);
     margin-bottom: 1rem;
+    box-shadow: 0 10px 25px rgba(31, 36, 36, 1.0);
 }
 
 .TechLanguageTooltip p {
