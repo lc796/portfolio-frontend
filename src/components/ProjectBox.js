@@ -1,5 +1,4 @@
 import {Fragment, useState} from "react";
-import { Link } from 'react-router-dom';
 import {faGithub, faJava, faJs, faReact, faPhp, faPython, faCss3, faHtml5, faGit} from '@fortawesome/free-brands-svg-icons'
 import {faGlobe, faScroll} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -63,13 +62,11 @@ const ProjectBox = (props) => {
     const renderContacts = () => {
         const github = links.github;
         const live = links.live;
-        const writeup = links.writeup;
 
         return <Fragment>
             <ul>
                 {github && <li className="link github"><a href={github}><FontAwesomeIcon icon={faGithub}/></a></li>}
                 {live && <li className="link live"><a href={live}><FontAwesomeIcon icon={faGlobe}/></a></li>}
-                {writeup && <li className="link writeup"><Link to={`/project/${id}`} ><FontAwesomeIcon icon={faScroll}/></Link></li>}
             </ul>
         </Fragment>;
     };
