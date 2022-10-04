@@ -1,6 +1,4 @@
 const Hamburger = () => {
-
-
     return (
         <div className="Hamburger">
             <ul className="hamburger-links">
