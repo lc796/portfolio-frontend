@@ -40,4 +40,4 @@ With that in mind, here are some ideas I have for the future of this project:
 
 For a live list of features I am working on, [see my open issues](https://github.com/lc796/portfolio-frontend/issues).
 
-To end, what I think worked great was setting about restrictions on the project scope. This allowed me to achieve a balance between learning and gaining invaluable experience and gaining confidence in my knowledge and abilities. With the numerous blog posts and videos about "The Great New Framework You Must Try!", it can be easy to miss the forest from the trees.
+To end, what I think worked great was setting about restrictions on the project scope. This allowed me to achieve a balance between acquiring new knowledge and developing greater confidence in my abilities. With the numerous blog posts and videos about "The Great New Framework You Must Try!", it can be easy to miss the forest from the trees.
