@@ -5,11 +5,21 @@ const Contact = () => {
                 <h1>Contact</h1>
                 <hr/>
                 <form name="contact-form" method="POST" data-netlify="true">
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" name="name"/>
-                    <label htmlFor="email">Email:</label>
-                    <input type="text" id="email" name="email"/>
-                    <button>Get in touch!</button>
+                    <p>
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" id="name" name="name"/>
+                    </p>
+                    <p>
+                        <label htmlFor="email">Email:</label>
+                        <input type="text" id="email" name="email"/>
+                    </p>
+                    <p>
+                        <label htmlFor="message">Message:</label>
+                        <textarea id="message" name="message"/>
+                    </p>
+                    <p>
+                        <button type="submit">Get in touch!</button>
+                    </p>
                 </form>
             </div>
         </div>

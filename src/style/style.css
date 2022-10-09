@@ -616,7 +616,7 @@ nav button:hover {
     align-content: center;
 }
 
-.Contact input {
+.Contact input, .Contact textarea {
     margin-bottom: 1em;
     padding: 0.5rem;
     border: 1px solid var(--neutral-grey-20);
@@ -628,12 +628,16 @@ nav button:hover {
     color: var(--neutral-grey-00);
 }
 
-.Contact input, .Contact button {
+.Contact input, .Contact button, .Contact textarea {
     width: 100%;
     max-width: 450px;
 }
 
-.Contact input:focus {
+.Contact textarea {
+    resize: none;
+}
+
+.Contact input:focus, .Contact textarea:focus {
     outline-style: none;
     border: 1px solid var(--primary-60);
 }
