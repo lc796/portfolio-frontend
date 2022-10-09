@@ -616,26 +616,11 @@ nav button:hover {
     align-content: center;
 }
 
-.form-container {
-    max-width: 450px;
-    width: 80%;
-    border-radius: 3rem;
-    padding: 2rem;
-    background-color: transparent;
-}
-
-.form-section {
-    display: block;
-    padding: 0 0 1rem;
-    margin: auto;
-    width: 90%;
-}
-
-.form-section input {
+.Contact input {
+    margin-bottom: 1em;
     padding: 0.5rem;
     border: 1px solid var(--neutral-grey-20);
     border-radius: 3px;
-    width: 100%;
     font-size: 1rem;
     font-family: var(--body-font);
     font-weight: bold;
@@ -643,12 +628,17 @@ nav button:hover {
     color: var(--neutral-grey-00);
 }
 
-.form-section input:focus {
+.Contact input, .Contact button {
+    width: 100%;
+    max-width: 450px;
+}
+
+.Contact input:focus {
     outline-style: none;
     border: 1px solid var(--primary-60);
 }
 
-.form-section ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.Contact ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: var(--neutral-grey-80);
     opacity: 1; /* Firefox */
 }
@@ -657,15 +647,15 @@ nav button:hover {
     color: var(--neutral-grey-80);
 }
 
-.form-section ::-ms-input-placeholder { /* Microsoft Edge */
+.Contact ::-ms-input-placeholder { /* Microsoft Edge */
     color: var(--neutral-grey-80);
 }
 
-.form-section label {
+.Contact label {
     font-size: 1.4rem;
 }
 
-.form-section button {
+.Contact button {
     font-size: 1.2rem;
     font-weight: bold;
     font-family: var(--body-font);
@@ -677,7 +667,7 @@ nav button:hover {
     background-color: var(--primary-60);
 }
 
-.form-section button:hover {
+.Contact button:hover {
     cursor: pointer;
     box-shadow: 0 2px 7px rgba(70, 220, 175, 0.8);
 }
