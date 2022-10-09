@@ -4,19 +4,19 @@ const Contact = () => {
             <div className="wrapper">
                 <h1>Contact</h1>
                 <hr/>
-                <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+                <form name="contact" method="POST" onSubmit="submit" netlify>
                     <div className="form-container">
-                        <div className="form-section">
+                        <p className="form-section">
                             <label htmlFor="name">Name:</label><br/>
                             <input type="text" id="name" name="name"/>
-                        </div>
-                        <div className="form-section">
+                        </p>
+                        <p className="form-section">
                             <label htmlFor="age">Email:</label><br/>
                             <input type="text" id="age" name="age"/>
-                        </div>
-                        <div className="form-section">
+                        </p>
+                        <p className="form-section">
                             <button>Get in touch!</button>
-                        </div>
+                        </p>
                     </div>
                 </form>
             </div>
