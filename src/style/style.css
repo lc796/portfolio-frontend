@@ -15,6 +15,7 @@ body {
     --primary-50: #46dcaf;
     --primary-60: #2f9e81;
     --primary-70: #16594c;
+    --primary-100: #152423;
     --secondary-10: #feecae;
     --secondary-20: #fde17c;
     --secondary-50: #e4c825;
@@ -594,7 +595,7 @@ nav button:hover {
 .Contact {
     padding: 3rem 0 6rem;
     min-height: 50vh;
-    background-color: var(--primary-70);
+    background-color: var(--primary-100);
     color: var(--neutral-grey-10);
 }
 
@@ -632,18 +633,19 @@ nav button:hover {
 
 .form-section input {
     padding: 0.5rem;
-    border: 1px solid var(--primary-60);
+    border: 1px solid var(--neutral-grey-20);
     border-radius: 3px;
     width: 100%;
     font-size: 1rem;
     font-family: var(--body-font);
     font-weight: bold;
-    background-color: var(--primary-50);
-    color: var(--neutral-grey-100);
+    background-color: var(--primary-100);
+    color: var(--neutral-grey-00);
 }
 
 .form-section input:focus {
-    outline: var(--neutral-grey-100)
+    outline-style: none;
+    border: 1px solid var(--primary-60);
 }
 
 .form-section ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -670,14 +672,14 @@ nav button:hover {
     width: 100%;
     padding: 1rem;
     margin-top: 1.4rem;
-    border: 1px solid var(--primary-50);
+    border: 1px solid var(--primary-60);
     border-radius: 1rem;
-    background-color: var(--primary-50);
+    background-color: var(--primary-60);
 }
 
 .form-section button:hover {
     cursor: pointer;
-    box-shadow: 0 5px 15px rgba(70, 220, 175, 0.8);
+    box-shadow: 0 2px 7px rgba(70, 220, 175, 0.8);
 }
 
 /* Footer */
