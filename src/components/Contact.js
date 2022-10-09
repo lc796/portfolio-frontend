@@ -4,7 +4,7 @@ const Contact = () => {
             <div className="wrapper">
                 <h1>Contact</h1>
                 <hr/>
-                <form name="contact" method="POST" onSubmit="submit" netlify>
+                <form name="contact" method="POST" data-netlify="true">
                     <div className="form-container">
                         <p className="form-section">
                             <label htmlFor="name">Name:</label><br/>
