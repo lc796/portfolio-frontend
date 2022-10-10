@@ -223,6 +223,23 @@ nav a {
     color: var(--primary-70)
 }
 
+/* CV special link - only applies outside of the hamburger range */
+@media only screen and (min-width: 700px) {
+    .cv {
+        color: var(--neutral-grey-90);
+        border: 2px solid var(--neutral-grey-90);
+        border-radius: 0.7em;
+    }
+
+    .cv:hover {
+        color: var(--secondary-70);
+        border: 2px solid var(--secondary-70);
+        border-radius: 0.7em;
+        background-color: initial;
+    }
+
+}
+
 nav a:hover {
     border: 1px solid var(--primary-70);
     border-radius: 8px;
@@ -268,7 +285,7 @@ nav button:hover {
     background-color: var(--neutral-grey-10);
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 700px) {
     .hamburger-links {
         display: flex;
         flex-direction: column;
@@ -314,7 +331,7 @@ nav button:hover {
 
 /* Splash */
 .splash-container {
-    height: calc(100vh - 80px);
+    height: calc(100vh);
     border-bottom: 1px solid var(--neutral-grey-40);
     background-color: var(--neutral-grey-20);
     text-align: center;
@@ -369,7 +386,7 @@ nav button:hover {
 @media only screen and (min-width: 992px) {
     .splash-container {
         background-size: contain;
-        background-image: url('../images/splash-final-mustard.png');
+        background-image: url('../static/splash-final-mustard.png');
         background-repeat: no-repeat;
         background-position: bottom right;
         text-align: initial;
