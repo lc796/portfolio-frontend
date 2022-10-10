@@ -49,7 +49,7 @@ const ProjectBox = (props) => {
 
         return <Fragment>
             <ul>
-                {github && <li className="link github"><a target="_blank" href={github}><FontAwesomeIcon icon={faGithub}/></a></li>}
+                {github && <li className="link github"><a rel="noreferrer" target="_blank" href={github}><FontAwesomeIcon icon={faGithub}/></a></li>}
                 {live && <li className="link live"><a rel="noreferrer" target="_blank" href={live}><FontAwesomeIcon icon={faGlobe}/></a></li>}
             </ul>
         </Fragment>;
