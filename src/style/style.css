@@ -171,7 +171,7 @@ hr {
     margin: 0;
     background-color: var(--neutral-grey-10);
     font-family: var(--primary-font);
-    border-bottom: 1px solid var(--neutral-grey-40)
+    border-bottom: 1px solid var(--neutral-grey-40);
 }
 
 .nav-logo {
@@ -277,6 +277,7 @@ nav button:hover {
 }
 
 .Hamburger {
+    text-align: left;
     position: fixed;
     width: 100%;
     z-index: 90;
@@ -286,14 +287,19 @@ nav button:hover {
 }
 
 @media only screen and (max-width: 700px) {
-    .hamburger-links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .Hamburger {
+        border-bottom: 1px solid var(--neutral-grey-60);
     }
 
     .hamburger-links {
-        padding-inline-start: 0;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .hamburger-links {
+        padding-inline-start: 18px;
         margin-block: 0;
     }
 
