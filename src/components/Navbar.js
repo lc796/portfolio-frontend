@@ -3,6 +3,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import {useState} from "react";
 import Hamburger from "./Hamburger";
+import Links from "./Links";
 
 const Navbar = () => {
     const [isHamburgerToggled, setIsHamburgerToggled] = useState(false);
@@ -12,6 +13,12 @@ const Navbar = () => {
         setIsHamburgerToggled(!isHamburgerToggled);
     }
 
+    const links = [
+        {name: "about", url: "/#about"},
+        {name: "projects", url: "/#projects"},
+        {name: "contact", url: "/#contact"}
+    ]
+
     return (
         <div className="Navbar">
             <nav className="nav">
@@ -19,17 +26,14 @@ const Navbar = () => {
                                                                                          icon={faGithub}/></a>
                 <div className="links-container">
                     <ul className="links">
-                        <li><a href="/#about">About</a></li>
-                        <li><a href="/#projects">Projects</a></li>
-                        <li><a href="/#contact">Contact</a></li>
+                        <Links links={links}/>
                         <li className="hamburger">
                             <button onClick={handleHamburgerMenu}><FontAwesomeIcon icon={faBars}/></button>
                         </li>
                     </ul>
                 </div>
-                {/*<button>Login</button>*/}
             </nav>
-            {isHamburgerToggled && <Hamburger />}
+            {isHamburgerToggled && <Hamburger links={links}/>}
         </div>
     );
 }
