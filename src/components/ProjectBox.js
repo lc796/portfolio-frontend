@@ -59,7 +59,7 @@ const ProjectBox = (props) => {
         <div className="project" id={id}>
             <div className="project-head"><h3>{name}</h3></div>
             <div className="project-body">
-                <ul>{techUsed}</ul>
+                <ul className="project-tech-used">{techUsed}</ul>
                 {
                     isHovering &&
                     <TechLanguageTooltip tooltip={tooltip}/>
