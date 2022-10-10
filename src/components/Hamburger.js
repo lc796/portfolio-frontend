@@ -4,7 +4,7 @@ const Hamburger = (props) => {
     return (
         <div className="Hamburger">
             <ul className="hamburger-links">
-                <Links links={props.links}/>
+                <Links />
             </ul>
         </div>
     );

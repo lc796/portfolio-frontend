@@ -1,7 +1,11 @@
 import {Fragment} from "react";
 
-const Links = (props) => {
-    const links = props.links
+const Links = () => {
+    const links = [
+        {name: "about", url: "/#about"},
+        {name: "projects", url: "/#projects"},
+        {name: "contact", url: "/#contact"}
+    ]
 
     return (
         <Fragment>
