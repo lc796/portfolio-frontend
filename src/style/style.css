@@ -55,6 +55,7 @@ body {
 
 :root {
     scroll-behavior: smooth;
+    scroll-padding-top: 4em;
 }
 
 *::-moz-selection {
