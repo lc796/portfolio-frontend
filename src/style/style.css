@@ -373,6 +373,7 @@ nav button:hover {
     color: var(--neutral-grey-10);
     background-color: var(--secondary-70);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .splash .cta:hover {
