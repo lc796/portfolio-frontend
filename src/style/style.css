@@ -754,6 +754,10 @@ nav button:hover {
     background-color: var(--primary-60);
 }
 
+#message {
+    height: 120px;
+}
+
 .Contact button:hover {
     cursor: pointer;
     box-shadow: 0 2px 7px rgba(70, 220, 175, 0.8);
