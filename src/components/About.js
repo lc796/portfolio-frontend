@@ -11,11 +11,11 @@ const About = () => {
                     </div>
                     <div className="about-item">
                         <h2>My experience</h2>
-                        <p>I graduated with a <b>First in BSc Computer Science</b> from the <b>University of Exeter</b>. This has given me the chance to work with numerous programming languages, in teams and on my own. I pride myself on going beyond the code. This includes producing high quality tests, documentation, and support with deployment and maintenance.</p>
+                        <p>I am expecting to graduate with a <b>First Class Honours in BSc Computer Science</b> from the <b>University of Exeter</b>. This has given me the chance to learn numerous programming languages, and gain experience both collaborating with teams and working on my own. I pride myself on going beyond the code. This includes producing high quality tests, documentation, and support with deployment and maintenance.</p>
                     </div>
                     <div className="about-item">
                         <h2>More about me</h2>
-                        <p>I am someone who is keen to learn and improve myself, and approach tasks with humility and as a piece-by-piece puzzle. I enjoy working out and training, and have competed in amateur boxing bouts. I also enjoy hiking, nature and animals. And, of course, no programmer is complete without having acquired a taste for coffee.</p>
+                        <p>I am someone who is keen to learn and improve, and I always approach tasks with humility. I enjoy working out and training, and have competed in amateur boxing bouts. I also enjoy hiking, nature and animals. And, of course, no programmer is complete without having acquired a taste for coffee.</p>
                     </div>
                 </div>
             </div>
