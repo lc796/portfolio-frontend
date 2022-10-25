@@ -14,15 +14,15 @@
     "tag": "Web App"
   },
   {
-    "id": "disaster-display",
-    "name": "Disaster Display",
-    "description": "Project for my final year dissertation at University of Exeter; a webapp to dynamically display disasters, including Google Maps integration and Charts.JS",
+    "id": "charity-walking-app",
+    "name": "Charity Walking App",
+    "description": "A webapp built to add your distance walked, with intelligent unit conversion, along with leaderboards and charts that are created dynamically.",
     "languages": [
-      "HTML", "CSS", "JS", "React", "Java", "MySQL", "Git"
+      "HTML", "CSS", "JS", "PHP", "MySQL", "Git"
     ],
-    "tooltip": "React (JS) involving ReactGoogleMaps, Chart.JS, and FontAwesome. Java involving Spring Boot and Git involving husky pre-commit hooks",
+    "tooltip": "PHP-based web app to work on the LAMP stack. Charts provided using Charts.js",
     "links": {
-      "github": "https://github.com/lc796",
+      "github": "https://github.com/lc796/charity-walking-webapp",
       "live": ""
     },
     "tag": "Web App"
