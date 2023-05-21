@@ -54,5 +54,30 @@
       "live": ""
     },
     "tag": "Game Addons"
+  },
+  {
+    "id": "disaster-display-frontend",
+    "name": "Disaster Display Frontend",
+    "description": "Front-end application built using Next.js, see back-end too. Note: data bundled locally now to save on deployment of back-end",
+    "languages": [
+      "HTML", "CSS", "JS"
+    ],
+    "links": {
+      "github": "https://github.com/lc796/disaster-frontend-nextjs",
+      "live": "https://disaster-frontend-nextjs-git-main-lc796.vercel.app/"
+    },
+    "tag": "Web App"
+  },
+  {
+    "id": "disaster-display-backend",
+    "name": "Disaster Display Backend",
+    "description": "Back-end application built using Django, see front-end too. Note: no longer running due to costs, previously deployed on Amazon EC2",
+    "languages": [
+      "Python"
+    ],
+    "links": {
+      "github": "https://github.com/lc796/disaster_display_backend"
+    },
+    "tag": "API"
   }
 ]
