@@ -674,6 +674,12 @@ nav button:hover {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 350px) {
+    .tag {
+        font-size: 0.9rem;
+    }
+}
+
 
 /* Contact */
 .Contact {
