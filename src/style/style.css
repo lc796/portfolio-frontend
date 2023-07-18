@@ -108,6 +108,7 @@ h1 {
     color: var(--primary-70);
     font-size: 3rem;
     font-weight: bold;
+    letter-spacing: -2px;
 }
 
 h2 {
@@ -339,26 +340,38 @@ nav button:hover {
 .splash-container {
     height: calc(100vh);
     border-bottom: 1px solid var(--neutral-grey-40);
-    background-color: var(--neutral-grey-20);
+    background: linear-gradient(180deg, rgba(223,230,230,0.91) 0%, rgba(203,209,208,0.95) 70%, rgba(157,163,163,0.98) 100%), url('../static/splash.jpg');
+    background-repeat: no-repeat;
+    background-size: 2400px 1400px;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
+.splash {
+    margin-top: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .splash h1 {
     margin: 0;
-    padding: 5rem 0 0 0;
+    padding: 0;
     font-size: 3.2rem;
     color: var(--primary-70);
+    letter-spacing: -4px
 }
 
 .splash p {
     width: 100%;
     padding: 1rem 10% 1rem;
-    margin: 0 0 3rem 0;
+    margin: 0;
     font-size: 1.2rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .splash .cta {
@@ -367,7 +380,7 @@ nav button:hover {
     width: 90%;
     border: 1px solid transparent;
     border-radius: 3rem;
-    margin: 2rem auto 0;
+    margin: 1rem 0 0 0;
     padding: 2rem;
     font: 2rem var(--primary-font);
     color: var(--neutral-grey-10);
@@ -402,46 +415,44 @@ nav button:hover {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .splash-container {
-        background-size: contain;
-        background-image: url('../static/splash-final-mustard.png');
+        background-image: url('../static/splash.jpg');
+        background: linear-gradient(180deg, rgba(223,230,230,0.91) 0%, rgba(203,209,208,0.95) 70%, rgba(157,163,163,0.98) 100%), url('../static/splash.jpg');
         background-repeat: no-repeat;
-        background-position: bottom right;
+        background-size: 2400px 1400px;
         text-align: initial;
     }
 
     .splash h1 {
         font-size: 5rem;
-        padding: 0 0 0 6rem;
     }
 
     .splash p {
         font-size: 1.4rem;
         width: 600px;
-        margin: 0 0 3rem 6rem;
         padding: inherit;
     }
 
     .splash .cta {
         width: 350px;
-        margin: 2rem 6.5rem;
+        margin: 2rem 0 0 0;
     }
 }
 
 @media only screen and (min-width: 1450px) {
     .splash h1 {
         font-size: 5rem;
-        padding: 0 0 0 13rem;
+        padding: 0 0 0 0;
     }
 
     .splash p {
         font-size: 1.4rem;
         width: 600px;
-        margin: 0 0 3rem 13rem;
-        text-align: left;
+        margin: 0 0 0 0;
     }
 
     .splash .cta {
-        margin: 2rem 13rem;
+        margin: 2rem 0 0 0;
+
     }
 }
 
@@ -465,26 +476,28 @@ nav button:hover {
     justify-content: space-evenly;
 }
 
+.about-item br {
+    font-size: 1px;
+}
+
 .about-item {
-    text-align: center;
+    text-align: left;
     padding: 1.5rem 1.5rem 0;
     flex-basis: 33%;
 }
 
+.about-item-text p {
+    margin-bottom: 0.7rem;
+}
+
 .about-item p {
-    text-align: justify;
+    text-align: left;
 }
 
 
 @media only screen and (max-width: 350px) {
     .about-item h2 {
         font-size: 1.4rem;
-    }
-}
-
-@media only screen and (max-width: 550px) {
-    .about-item p {
-        text-align: left;
     }
 }
 
