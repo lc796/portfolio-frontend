@@ -16,7 +16,7 @@ const About = () => {
                     <div className="about-item">
                         <h2>My experience</h2>
                         <div className="about-item-text">
-                            <p>I am expecting to graduate with a <b>First Class Honours in BSc Computer Science</b> from the <b>University of Exeter</b> 🎓</p>
+                            <p>I graduated with <b>First Class Honours in BSc Computer Science</b> from the <b>University of Exeter</b> 🎓</p>
                             <p>This has given me the chance to learn numerous programming languages, and gain experience both collaborating with teams and working on my own. I pride myself on going beyond the code. This includes producing high quality tests, documentation, and support with deployment and maintenance</p>
 
                         </div>
